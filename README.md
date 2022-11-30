@@ -41,7 +41,7 @@ You can first test the indexing API that wrap the model without installing any t
 
 1. Open a web browser and go to <https://labs.play-with-docker.com/>
 
-2. Login with your docker account and click on the start button. Kindly feel free to use my account for testing
+2. Login with your docker account and click on the start button
 
 4. Add a new instance
 
