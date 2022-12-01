@@ -1,6 +1,4 @@
-# Algomo
-
-## Multilingual Sentence Grouping
+# Multilingual Sentence Grouping
 
 The target of this project is to build a multilingual (100+ languages) sentence grouping model by using transfer learning with TensorFlow Hub.
 
@@ -13,7 +11,7 @@ The model will match question-answer pairs across languages, by assigning a "faq
 - Computing sentence level semantic similarity with embeddings vectors
 - Grouping the sentences using algorithm built by myself
 
-### Folder Structure
+## Folder Structure
     .
     ├── data                                       # Data used by notebook
     ├── installation                               # Files for development environment installation on Apple Chip
@@ -22,7 +20,7 @@ The model will match question-answer pairs across languages, by assigning a "faq
     ├── LICENSE
     └── README.md
 
-### Built With
+## Built With
 This section list all frameworks/libraries used.
 - joblib==1.1.0
 - numpy==1.23.3
@@ -119,7 +117,7 @@ cd Hsuning_Chang_ml_eng/installation
 Modify the file paths in the first cell and run the whole notebooks.
 
 ```
-input_file_path = 'data/extracted_n26_new.csv'
+input_file_path = 'data/extracted_data.csv'
 output_file_path = 'data/closest_matches.csv'
 output_model_path = 'closest_match_model.pkl'
 ```
